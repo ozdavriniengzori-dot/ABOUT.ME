@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Haqimda</title>
+    <style>
+        /* Umumiy stillar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        /* Profil qismi */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Ko'nikmalar va Ma'lumot */
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .skills-list {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skills-list li {
+            background: #e8f4fd;
+            color: #2980b9;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        /* Aloqa qismi */
+        .contacts a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        .contacts a:hover {
+            color: #1abc9c;
+        }
+
+        /* Moslashuvchanlik (Responsive) */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px auto;
+            }
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Ism Sharifingiz</h1>
+            <p>Dasturchi / Grafik Dizayner / Talaba</p>
+        </div>
+
+        <h2>Men haqimda</h2>
+        <p>
+            Salom! Mening ismim [Ismingiz]. Men hozirda o'z soham bo'yicha yangi bilimlar olish va loyihalar ustida ishlash bilan bandman. Doimo yangi texnologiyalarni o'rganishga va muammolarga kreativ yechimlar topishga qiziqaman.
+        </p>
+
+        <h2>Ko'nikmalarim (Skills)</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Photoshop</li>
+            <li>Git / GitHub</li>
+            <li>Teamwork</li>
+        </ul>
+
+        <h2>Aloqa</h2>
+        <p>Men bilan bog'lanish yoki loyihalarimni ko'rish uchun quyidagi havolalardan foydalanishingiz mumkin:</p>
+        <div class="contacts">
+            <a href="https://t.me/telegram_yuzeringiz" target="_blank">Telegram</a>
+            <a href="https://github.com/github_yuzeringiz" target="_blank">GitHub</a>
+            <a href="mailto:emailingiz@example.com">Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
